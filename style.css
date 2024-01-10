@@ -1,0 +1,56 @@
+/* Global styles */
+body {
+    margin: 10px 10px;
+}
+
+/* Space between each image section */
+section {
+    margin-bottom: 60px;
+}
+
+/* Image 1 section */
+.image1 {
+    overflow: hidden;
+}
+#img1 {
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+#b1 {
+    border: 2px solid black;
+}
+#b1 p {
+    margin: 5px 15px;
+    font-size: x-large;
+}
+
+/* Image 2 section */
+.image2 {
+    overflow: hidden;
+}
+#img2 {
+    object-fit: cover;
+    object-position: bottom;
+    display: block;
+}
+#b2 {
+    border: 3px solid black;
+}
+#b2 p {
+    margin: 5px 15px 25px;
+    font-size: x-large;
+}
+
+/* Image 3 section */
+.image3 {
+    height: 300px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#b3 p {
+    margin: 5px 15px;
+    font-size: x-large;
+}
